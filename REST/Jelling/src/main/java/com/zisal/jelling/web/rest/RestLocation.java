@@ -25,7 +25,7 @@ public class RestLocation {
     @RequestMapping(value = "/rest/load/location/", method = RequestMethod.POST)
     @ResponseBody
     public List<ModelLocation> loadAllLocation(@RequestBody DTORequestLocation dtoRequestLocation){
-        logger.info(LOG.INFO, "User Logged in : "+dtoRequestLocation.getUserId());
+        logger.info(LOG.INFO, "User Logged in  "+dtoRequestLocation.getUserId());
         return iServiceLocation.loadAllLocation(dtoRequestLocation.getUserId());
     }
 }
