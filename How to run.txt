@@ -1,0 +1,9 @@
+Source code Repository : 
+
+How to run
+===========
+1. Jalankan Jelling-0.0.1-SNAPSHOT.jar dengan cara : java -jar Jelling-0.0.1-SNAPSHOT.jar
+   aplikasi akan berjalan pada port 8082
+2. Checkout aplikasi mobile. kemudian ganti Host pada ApplicationConstant.java
+   mengikuti Host aplikasi Rest yang berjalan
+3. Jalankan aplikasi mobile pada device android dengan status internet : on. API min : 15 (ICS)
